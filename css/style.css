@@ -137,6 +137,12 @@
 	  background: linear-gradient(180deg, #FD749B, #281AC8);
 	  color: #fff;
 	}
+
+	.btn-3 {
+	  background: #888888;
+	  color: #fff;
+	}
+
 	
 	/* Table styles */
 	table {
@@ -153,7 +159,13 @@
 	td {
 		padding: 25px;
 		color: #333333;
-		font-size: 14px;		
+		font-size: 14px;
+		vertical-align: top;
+	}
+
+	.inner td {
+		padding: 5px 15px;
+		vertical-align: top;
 	}
 	
 	/* Newsletter form */
@@ -177,6 +189,11 @@
 	.foot {
             background: #151515;
 	}
+	
+	.footer p {
+	color: #A2A2A2;
+	}
+	
 	.footer {
             color: #A2A2A2;
 			font-size:14px;
